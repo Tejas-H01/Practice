@@ -1,4 +1,4 @@
-import java.awt.font.NumericShaper;
+
 import java.util.Scanner;
 public class Calc {
     public static void main(String[] args){
@@ -47,6 +47,8 @@ public class Calc {
             default:
                 System.out.println("Invalid Input Choice");
         }
+
+        sc.close();
     }
 }
 }
